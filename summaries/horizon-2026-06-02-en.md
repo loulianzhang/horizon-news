@@ -1,9 +1,4 @@
----
-layout: default
-title: "Horizon Summary: 2026-06-02 (EN)"
-date: 2026-06-02
-lang: en
----
+# Horizon Daily - 2026-06-02
 
 > From 39 items, 14 important content pieces were selected
 
@@ -310,3 +305,4 @@ hackernews · prakashqwerty · Jun 1, 16:41 · [Discussion](https://news.ycombin
 **Tags**: `#AI`, `#Education`, `#Guidelines`, `#Stanford`
 
 ---
+
