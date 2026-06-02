@@ -1,12 +1,12 @@
 theme: jekyll-theme-cayman
 title: Horizon Daily
 description: AI-curated daily digest of tech and research news
-baseurl: "/horizon-news"  # 改为你的仓库名
-url: "https://loulianzhang.github.io"  # 改为你的 GitHub Pages URL
+baseurl: "/horizon-news"  # 您的仓库名
+url: "https://loulianzhang.github.io"  # 您的 GitHub Pages URL
 
 # Build settings
 markdown: kramdown
-future: true
+future: true  # Allow future posts to be published
 plugins:
   - jekyll-feed
 feed:
