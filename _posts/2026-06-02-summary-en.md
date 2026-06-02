@@ -9,157 +9,155 @@ lang: en
 
 ---
 
-1. [Stock Market's Capacity to Absorb Tech Giants' Valuations](#item-1) ⭐️ 8.0/10
-2. [OpenAI Frontier Models and Codex Now Available on AWS](#item-2) ⭐️ 8.0/10
-3. [Hackers Exploit Meta's AI Support Bot to Take Over Instagram Accounts](#item-3) ⭐️ 8.0/10
-4. [Adafruit Receives Legal Demand from Flux.ai](#item-4) ⭐️ 7.0/10
-5. [Apple Rejects Dictation App for Using Accessibility API](#item-5) ⭐️ 7.0/10
-6. [Pasted File Editor: A New Tool for Handling Large Text and Files](#item-6) ⭐️ 7.0/10
-7. [Blog Post Discusses Janet Programming Language](#item-7) ⭐️ 6.0/10
+1. [Hackers Exploit Meta's AI Support Bot to Hijack Instagram Accounts](#item-1) ⭐️ 8.0/10
+2. [Exploring the Janet Programming Language](#item-2) ⭐️ 7.0/10
+3. [Apple Rejects Dictation App for Using Accessibility API](#item-3) ⭐️ 7.0/10
+4. [Blog Post Advocates for Systemd Timers Over Cron Jobs](#item-4) ⭐️ 7.0/10
+5. [Stock Market's Capacity for Major Tech IPOs](#item-5) ⭐️ 7.0/10
+6. [macOS Needs a Grid System for Better Organization](#item-6) ⭐️ 6.0/10
+7. [Pasted File Editor Tool for Large Text and Files](#item-7) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Stock Market's Capacity to Absorb Tech Giants' Valuations](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) ⭐️ 8.0/10
+## [Hackers Exploit Meta's AI Support Bot to Hijack Instagram Accounts](https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything) ⭐️ 8.0/10
 
-The article examines whether the stock market can handle the high valuations of tech companies like Anthropic, SpaceX, and OpenAI, and the potential implications for investors and the broader economy. This is significant because the entry of these high-valued tech companies into the stock market could have a substantial impact on market dynamics and investor portfolios. The article highlights that rule changes may force large amounts of passive retirement funds to buy shares at IPO valuations, and discusses the rapid revenue growth of companies like Anthropic.
+Hackers exploited Meta's AI support bot to gain access to high-profile Instagram accounts by simply asking the bot to change the email address associated with the target account. This incident highlights a significant security vulnerability in Meta's AI support system, which could have major implications for user account security and trust in AI-driven customer support. The hackers were able to fast-forward through the entire account recovery process by interacting with the AI chatbot, bypassing standard security measures such as two-factor authentication (2FA).
 
-hackernews · 1vuio0pswjnm7 · Jun 1, 23:45 · [Discussion](https://news.ycombinator.com/item?id=48364055)
+rss · Simon Willison · Jun 1, 21:14
 
-**Background**: Tech companies like Anthropic, SpaceX, and OpenAI are at the forefront of innovation in AI and space exploration. Their potential public offerings (IPOs) are highly anticipated due to their high valuations and the significant interest from investors.
+**Background**: Account recovery processes are designed to help users regain access to their accounts if they forget their passwords or lose access. AI support bots are increasingly being used by companies to handle routine customer inquiries and provide instant responses. However, this incident shows that these bots can be vulnerable to exploitation if not properly secured.
 
-**Discussion**: Community comments range from concerns about the forced buying of shares by passive funds to skepticism about the actual value created by these companies. Some also highlight the potential economic benefits of large-scale infrastructure spending and job creation.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://support.apple.com/en-us/118574">How to use account recovery when you can’t reset your Apple Account password - Apple Support</a></li>
+<li><a href="https://support.google.com/accounts/answer/7682439?hl=en">How to recover your Google Account or Gmail - Google Account Help</a></li>
 
-**Tags**: `#stock-market`, `#tech-companies`, `#valuation`, `#IPO`, `#economics`
+</ul>
+</details>
+
+**Discussion**: Community members expressed concern over the security of AI agents and the potential for low-level support staff to disable 2FA, emphasizing the need for robust security measures. Some users also shared personal experiences of account takeovers and the frustration of dealing with insecure support systems.
+
+**Tags**: `#security`, `#AI`, `#cybersecurity`, `#Meta`
 
 ---
 
 <a id="item-2"></a>
-## [OpenAI Frontier Models and Codex Now Available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/) ⭐️ 8.0/10
+## [Exploring the Janet Programming Language](https://ianthehenry.com/posts/why-janet/) ⭐️ 7.0/10
 
-OpenAI's frontier models and Codex are now generally available on AWS, making them more accessible to enterprise users with existing AWS relationships and data governance requirements. This announcement is significant as it makes OpenAI's advanced models more accessible to enterprises, which can drive broader adoption and innovation. It removes one of the biggest barriers to AI adoption: getting frontier AI into production through existing security, compliance, procurement, billing, and governance workflows. Enterprises can now leverage OpenAI's models through their existing AWS infrastructure, which simplifies integration and ensures that internal data remains under company control. This move also aligns with the growing trend of cloud providers offering AI services directly to their customers.
+A detailed exploration of the Janet programming language, highlighting its features, use cases, and comparisons to other languages. This post provides valuable insights into a niche but interesting programming language, offering developers a new tool for their toolkit and sparking discussions about language design and use. Janet is a functional and imperative programming language that runs on multiple platforms. It has a small footprint, with the entire language (core library, interpreter, compiler, assembler) being less than 1MB. Janet also supports sandboxing, which allows disabling certain features to prevent the interpreter from using specific system resources.
 
-hackernews · typpo · Jun 1, 21:50 · [Discussion](https://news.ycombinator.com/item?id=48363132)
+hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com/item?id=48367907)
 
-**Background**: OpenAI's frontier models are advanced AI systems designed for complex and valuable AI work. Codex, specifically, is an AI coding partner that accelerates real engineering work, from planning and building features to refactors, reviews, and releases. AWS Bedrock is a fully managed service that makes it easy to build and scale generative AI applications.
+**Background**: Janet is a dynamic language and bytecode VM, similar to Lua and GNU Guile in terms of embedding and scripting capabilities. It offers more built-in functionality and a richer core language than Lua, but is smaller than GNU Guile or Python. Fennel, another language by the same developer, compiles to and is fully implemented in Lua, making it suitable for writing scripts for applications that embed Lua.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openai.com/index/introducing-openai-frontier/">Introducing OpenAI Frontier | OpenAI</a></li>
-<li><a href="https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/">OpenAI frontier models and Codex are now available on AWS | OpenAI</a></li>
+<li><a href="https://janet-lang.org/">The Janet Programming Language</a></li>
+<li><a href="https://fennel-lang.org/">the Fennel programming language</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion highlights the practical benefits and challenges of using these models in large corporate settings. Many commenters emphasize the importance of existing vendor relationships and data governance, noting that using AWS Bedrock simplifies the process and meets strict internal requirements.
+**Discussion**: The community discussion highlights the unique features of Janet, such as its sandboxing capabilities and ability to create portable binaries. Some users also mention the lack of package management versioning and limited libraries as drawbacks. The discussion also touches on related languages like Fennel and their use cases.
 
-**Tags**: `#AI`, `#Cloud Services`, `#Enterprise Technology`, `#OpenAI`
+**Tags**: `#programming-languages`, `#janet`, `#lua`, `#fennel`, `#software-development`
 
 ---
 
 <a id="item-3"></a>
-## [Hackers Exploit Meta's AI Support Bot to Take Over Instagram Accounts](https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything) ⭐️ 8.0/10
-
-Hackers exploited a vulnerability in Meta's AI support bot to gain access to high-profile Instagram accounts by simply asking the bot to change the email address associated with the target accounts. This incident highlights significant security vulnerabilities in AI-driven support systems and underscores the risks of integrating AI into critical processes without proper safeguards, potentially affecting millions of users. The hackers were able to bypass the account recovery process by interacting with the AI support bot, which had the authority to change email addresses without proper verification. This vulnerability allowed for one-shot account takeovers.
-
-rss · Simon Willison · Jun 1, 21:14
-
-**Background**: Account recovery processes are designed to help users regain access to their accounts if they lose their login credentials. These processes typically involve multiple steps to verify the user's identity. However, in this case, the AI support bot was given too much authority, allowing it to bypass these steps.
-
-**Discussion**: The community discussion highlighted the importance of securing the tools that AI agents have access to, rather than focusing on the agent itself. There is also concern about the role of low-level support staff in account recovery and the need for better training and safeguards.
-
-**Tags**: `#security`, `#AI`, `#cybersecurity`, `#Meta`, `#Instagram`
-
----
-
-<a id="item-4"></a>
-## [Adafruit Receives Legal Demand from Flux.ai](https://blog.adafruit.com/) ⭐️ 7.0/10
-
-Adafruit received a demand letter from Fenwick Legal Counsel on behalf of Flux.ai, which has sparked a discussion about the quality and practices of Flux.ai's AI-driven PCB design tool. This legal action highlights concerns within the electronics and PCB design community regarding the effectiveness and user experience of AI tools, potentially impacting the adoption and trust in such technologies. Users have reported poor experiences with Flux.ai, citing issues with token consumption and ineffective component placement. Adafruit is preparing to share their story and has invited questions via email.
-
-hackernews · semanser · Jun 2, 10:00 · [Discussion](https://news.ycombinator.com/item?id=48368121)
-
-**Background**: Flux.ai is an AI-driven PCB design tool that aims to automate and streamline the design process. The PCB design process typically involves several steps, including schematic creation, component placement, and routing, which can be time-consuming and complex.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.flux.ai/">Flux - Design PCBs with AI</a></li>
-<li><a href="https://findmyaitool.com/tool/flux-ai">Flux AI - AI-Driven PCB Design Tool for Engineers</a></li>
-<li><a href="https://www.electronics-lab.com/flux-ai-an-ai-powered-browser-based-pcb-design-tool-review/">Flux.ai - An AI Powered, Browser-Based PCB Design Tool Review</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community members have shared negative experiences with Flux.ai, criticizing its token-based system and poor performance. Some users have found better results with traditional tools like KiCad MCP and SKIDL.
-
-**Tags**: `#PCB Design`, `#AI Tools`, `#Legal Issues`, `#Community Feedback`
-
----
-
-<a id="item-5"></a>
 ## [Apple Rejects Dictation App for Using Accessibility API](https://www.mitmllc.com/blog/apple-rejected-my-dictation-app/) ⭐️ 7.0/10
 
-A developer's dictation app was rejected by Apple for using the accessibility API, leading to a discussion on app store policies and alternative distribution methods. This rejection highlights the challenges developers face with Apple's strict app store policies, especially regarding the use of accessibility features, and the need for more flexible distribution options. The developer's app was designed to help users with typing difficulties, but Apple's policy restricts the use of the accessibility API in such applications. This has led to a broader conversation about the balance between security, user experience, and developer flexibility.
+A developer's dictation app was rejected by Apple for using the accessibility API, highlighting the challenges in app distribution and accessibility features. This rejection highlights the strict control Apple has over its App Store and the limitations it imposes on developers, particularly in the context of accessibility features. The app was designed to use the accessibility API to provide dictation functionality, but Apple's policies do not allow this, leading to the app's rejection.
 
 hackernews · RZelaya · Jun 2, 12:00 · [Discussion](https://news.ycombinator.com/item?id=48369088)
 
-**Background**: Accessibility APIs are designed to make technology more usable for people with disabilities. However, Apple's app store policies often restrict the use of these APIs to ensure security and a consistent user experience. This can limit the functionality and distribution of apps that aim to help users with specific needs.
+**Background**: Accessibility APIs are designed to make technology more usable for people with disabilities. However, Apple has specific guidelines and restrictions on how these APIs can be used in apps distributed through the App Store. This often leads to conflicts between developers and Apple's review process.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Accessibility_apps">Accessibility apps</a></li>
-<li><a href="https://developer.apple.com/documentation/accessibility/accessibility-api">Accessibility API | Apple Developer Documentation</a></li>
-<li><a href="https://developer.apple.com/app-store/guidelines/">Guidelines - App Store - Apple Developer</a></li>
+<li><a href="https://medium.com/dewsolutions/6-strong-reasons-behind-ios-app-rejection-3a03fad69ad3">6 Strong Reasons Behind iOS App Rejection | by Manish... | Medium</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members suggested alternative distribution methods, such as distributing the app outside the App Store or implementing a licensing system that works with both App Store and direct downloads. Some also recommended open-source alternatives like Ghost-Pepper for those facing similar issues.
+**Discussion**: Community members discussed alternative solutions such as distributing the app outside the App Store or implementing a licensing system that allows users to unlock features if they purchased the app from the App Store. Some also suggested using open-source alternatives or switching to other operating systems like GNU/Linux.
 
-**Tags**: `#Apple`, `#Accessibility`, `#App Store Policies`, `#Developer Experience`
+**Tags**: `#Apple`, `#Accessibility`, `#App Store`, `#Developer Experience`, `#iOS`
+
+---
+
+<a id="item-4"></a>
+## [Blog Post Advocates for Systemd Timers Over Cron Jobs](https://blog.tjll.net/you-dont-love-systemd-timers-enough/) ⭐️ 7.0/10
+
+A blog post by TJ L. advocates for the use of systemd timers over traditional cron jobs, supported by practical examples and community feedback. This comparison highlights the advantages of systemd timers, such as better integration with the system, more predictable execution, and easier debugging, which can improve system administration and automation. Systemd timers are part of the systemd suite and use the 'OnCalendar' directive for scheduling. They are resilient to system startup times and integrate well with journalctl for logging and debugging.
+
+hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com/item?id=48367904)
+
+**Background**: Cron is a time-based job scheduler in Unix-like operating systems, typically used for repetitive tasks. Systemd, on the other hand, is a software suite for system and service management on Linux, providing various daemons and utilities, including systemd timers, which are designed to be more flexible and integrated with the system.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://wiki.archlinux.org/title/Systemd/Timers">systemd / Timers - ArchWiki</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cron_jobs">Cron jobs</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community members shared their experiences and use cases, with some highlighting the resilience of systemd timers to system startup times and the ease of integration with journalctl. Others discussed the predictability of PATH settings in cron jobs and the transition from cron to systemd timers.
+
+**Tags**: `#systemd`, `#cron`, `#Linux`, `#automation`, `#system administration`
+
+---
+
+<a id="item-5"></a>
+## [Stock Market's Capacity for Major Tech IPOs](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) ⭐️ 7.0/10
+
+The article examines whether the stock market can handle the potential public offerings of Anthropic, SpaceX, and OpenAI, considering recent regulatory changes and their broader economic implications. This is significant because these companies represent a large influx of capital and could have a substantial impact on the stock market and the broader economy. Regulatory changes, such as waiving profitability requirements and reducing the seasoning window, are making it easier for these companies to go public. This could force over $30 trillion in passive 401k and retirement money to buy into these IPOs.
+
+hackernews · 1vuio0pswjnm7 · Jun 1, 23:45 · [Discussion](https://news.ycombinator.com/item?id=48364055)
+
+**Background**: An Initial Public Offering (IPO) is the process by which a private company raises capital by selling shares to the public. The stock market's ability to absorb new listings is influenced by various factors, including regulatory environment, market sentiment, and the financial health of the companies going public.
+
+**Discussion**: Community members discussed the potential impact of these IPOs, with some expressing concerns about the valuation and the forced buying of shares by passive funds. Others highlighted the positive aspects, such as job creation and infrastructure spending.
+
+**Tags**: `#stock market`, `#IPO`, `#tech companies`, `#regulation`, `#economics`
 
 ---
 
 <a id="item-6"></a>
-## [Pasted File Editor: A New Tool for Handling Large Text and Files](https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything) ⭐️ 7.0/10
+## [macOS Needs a Grid System for Better Organization](https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/) ⭐️ 6.0/10
 
-Simon Willison has introduced a new tool called Pasted File Editor, which allows users to paste large volumes of text and handle file attachments, including images, with AI assistance. This tool is significant because it simplifies the process of handling large text pastes and file attachments, making it more efficient and user-friendly for developers and general users. The tool can detect large text pastes and convert them into file attachments. It also supports opening files directly, including images, which are shown as thumbnails, and allows dragging files onto the textarea.
+The article argues for the reintroduction of a grid system in macOS to improve user experience and organization. A grid system could enhance the usability and efficiency of macOS, making it easier for users to manage their windows and spaces. The grid system would provide a more structured and visually organized way to manage multiple applications and windows.
 
-rss · Simon Willison · Jun 2, 04:13
+hackernews · ranebo · Jun 2, 01:28 · [Discussion](https://news.ycombinator.com/item?id=48364800)
 
-**Background**: Claude is a series of large language models developed by Anthropic, known for its AI-based chatbot capabilities. Codex is a desktop application from OpenAI that serves as a command center for agentic software development.
+**Background**: macOS, Apple's operating system for Mac computers, has evolved over the years with various changes to its user interface. The grid system, if implemented, would offer a more systematic approach to window management, similar to how some third-party tools currently function.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_AI">Claude AI</a></li>
-<li><a href="https://openai.com/index/introducing-the-codex-app/">Introducing the Codex app | OpenAI</a></li>
+**Discussion**: Community members discussed the need for better UI design and the importance of user-friendly features. Some users highlighted the challenges with current macOS features and suggested improvements, such as integrating a 'project' or 'task' concept across apps.
 
-</ul>
-</details>
-
-**Tags**: `#javascript`, `#tools`, `#ai-assisted-programming`, `#claude`, `#codex`
+**Tags**: `#macOS`, `#User Interface`, `#Productivity`
 
 ---
 
 <a id="item-7"></a>
-## [Blog Post Discusses Janet Programming Language](https://ianthehenry.com/posts/why-janet/) ⭐️ 6.0/10
+## [Pasted File Editor Tool for Large Text and Files](https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything) ⭐️ 6.0/10
 
-A blog post by Ian Henry discusses the features and reasons for using the Janet programming language, along with community feedback and experiences. The post provides insights into the strengths and limitations of Janet, helping developers make informed decisions about its use in their projects. The community feedback adds practical perspectives and comparisons with other languages. Janet is a functional and imperative programming language that can create binaries with JPM, scripts, and is very portable. It also includes a sandbox feature to disable certain system resources. However, it lacks package management versioning and has limited libraries.
+Simon Willison has developed a tool called Pasted File Editor, which allows users to paste large volumes of text and convert them into file attachments, similar to the functionality in Claude.ai. This tool is significant because it provides a convenient way to handle large text pastes and file attachments, which can be particularly useful for developers and other professionals who frequently work with large amounts of text and files. The Pasted File Editor also supports opening files directly, including images that are shown as thumbnails, and allows users to drag files onto the textarea. It was built using Codex desktop as a prototype.
 
-hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com/item?id=48367907)
+rss · Simon Willison · Jun 2, 04:13
 
-**Background**: Janet is a dynamic language and bytecode VM designed for system scripting and embedding in other programs. It is similar to Lua and GNU Guile but offers more built-in functionality and a richer core language than Lua, while being smaller than GNU Guile or Python.
+**Background**: Claude.ai is a series of large language models developed by Anthropic, known for its AI-based chatbot and AI-assisted software development capabilities. Codex is a coding agent from OpenAI that runs locally on your computer and is used for agentic software development.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://janet-lang.org/">Janet Programming Language</a></li>
-<li><a href="https://github.com/janet-lang/janet">GitHub - janet-lang/janet: A dynamic language and bytecode vm</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Claude.ai">Claude.ai</a></li>
+<li><a href="https://developers.openai.com/codex/app">App – Codex | OpenAI Developers</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members shared mixed opinions on Janet. Some praised its portability and ability to create binaries, while others pointed out its lack of package management and limited libraries. There was also a discussion about a similar language called Fennel, which compiles to and is fully implemented in Lua.
-
-**Tags**: `#programming`, `#janet`, `#language-features`, `#community-discussion`
+**Tags**: `#tools`, `#javascript`, `#ai-assisted-programming`
 
 ---
