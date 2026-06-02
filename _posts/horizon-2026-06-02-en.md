@@ -1,9 +1,4 @@
----
-layout: default
-title: "Horizon Summary: 2026-06-02 (EN)"
-date: 2026-06-02
-lang: en
----
+# Horizon Daily - 2026-06-02
 
 > From 22 items, 7 important content pieces were selected
 
@@ -163,3 +158,4 @@ hackernews · yacin · Jun 2, 09:34 · [Discussion](https://news.ycombinator.com
 **Tags**: `#programming`, `#janet`, `#language-features`, `#community-discussion`
 
 ---
+
